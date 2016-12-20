@@ -29,7 +29,7 @@ package() {
   rm -rf "$pkgdir"/usr/glibc-compat/include
   rm -rf "$pkgdir"/usr/glibc-compat/share
   rm -rf "$pkgdir"/usr/glibc-compat/var
-  ln -s /usr/glibc-compat/lib/ld-linux-x86-64.so.2 ${pkgdir}/lib64/ld-linux-x86-64.so.2
+  ln -s /usr/glibc-compat/lib/ld-linux-x86-64.so.2 ${pkgdir}/lib/ld-linux-x86-64.so.2
   ln -s /usr/glibc-compat/etc/ld.so.cache ${pkgdir}/etc/ld.so.cache
 }
 
